@@ -1,0 +1,17 @@
+.buttonBackDiv{
+    text-align: center;
+    /* background-color: red; */
+}
+
+.showMore{
+  color: black;
+  font-size: 18px;
+   margin-top: 20px;
+   margin-left: 4px;
+   transition: 2s;
+}
+
+.showMore:hover{
+    color: white;
+    background-color: rgb(69, 69, 206);
+}

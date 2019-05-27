@@ -1,0 +1,143 @@
+/* Contact part */
+@media screen and (min-width: 992px) {
+
+    .con {
+        padding-bottom: 100px;
+    }
+    .contactPartStyle {
+        height: 300px;
+        background-image: url(../ContactPart/Image/backImg.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .titleStyle {
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        font-family: normal;
+        text-decoration: underline;
+        text-shadow: 1px 1px;
+        transition: 2s;
+        color: #722f37;
+    }
+
+    .midTextSize {
+        font-size: 25px;
+        font-family: normal;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+    .smTextSize {
+        font-size: 22px;
+        text-align: left;
+        font-family: normal;
+    }
+
+    input {
+        font-size: 20px;
+        color: black;
+        padding-right: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid gray;
+    }
+
+    textarea {
+        font-size: 20px;
+        padding-right: 488px;
+        padding-bottom: 140px;
+    }
+
+    .forMarginRow {
+        margin-top: 20px;
+    }
+
+    .buttonStyle {
+        margin-left: 14px;
+        background-color: rgb(18, 74, 131);
+        color: white;
+        font-family: normal;
+        font-size: 22px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .con {
+        padding-bottom: 100px;
+    }
+
+    .contactPartStyle {
+        height: 200px;
+        background-image: url(../ContactPart/Image/backImg.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .titleStyle {
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        font-family: normal;
+        text-decoration: underline;
+        text-shadow: 1px 1px;
+        transition: 2s;
+        color: #722f37;
+
+    }
+    .midTextSize {
+        font-size: 28px;
+        font-family: normal;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 20px;
+        color: #722f37;
+    }
+
+    .smTextSize {
+        font-size: 20px;
+        text-align: left;
+        font-family: normal;
+    }
+
+    input {
+        font-size: 18px;
+        color: black;
+        padding-right: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid gray;
+        font-family: normal;
+    }
+
+    textarea {
+        font-size: 18px;
+        padding-right: 238px;
+        padding-bottom: 140px;
+        color: black;
+        font-family: normal;
+    }
+    form{
+        margin-left: 20px;
+    }
+
+    .forMarginRow {
+        margin-top: 15px;
+    }
+
+    .buttonStyle {
+        margin-left: 14px;
+        background-color: rgb(21, 65, 109);
+        color: white;
+        font-family: normal;
+        font-size: 22px;
+        transition: 1s;
+    }
+}
+/*  AndContact part */

@@ -1,0 +1,172 @@
+/* Start End Part */
+
+@media screen and (min-width: 992px) {
+    .endBackStyle {
+        background-color: rgb(95, 103, 110);
+        padding-top: 80px;
+        padding-bottom: 150px;
+        border-top: 5px solid rgb(7, 9, 26);
+    }
+
+    .logoStyleEnd {
+        font-size: 80px;
+        color: black;
+        font-family: normal;
+        text-shadow: 2px 2px;
+        transition: 2s;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .f,
+    .i,
+    .t,
+    .y {
+        min-height: 50px;
+        max-width: 50px;
+        background-image: url(./Image/f.png);
+        background-repeat: no-repeat;
+        background-size: 85% 85%;
+        margin-top: 5px;
+    }
+
+    .i {
+        background-image: url(./Image/i.png)
+    }
+
+    .t {
+        background-image: url(./Image/t.png)
+    }
+
+    .y {
+        background-image: url(./Image/y.png)
+    }
+
+    .endText {
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: normal;
+        color: #722f37;
+        display: inline-block;
+    }
+
+    h4 {
+        font-family: normal;
+        font-size: 22px;
+        text-shadow: 0.5px 0.5px;
+        color: black;
+    }
+
+    .logoForUp {
+        height: 50px;
+        max-width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-position: -40%;
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        border: 1px solid black;
+        background-color: rgb(61, 79, 131);
+        transition: 2s;
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+
+    .logoForUp {
+        background-image: url(./Image/prev.png);
+        transform: rotate(90deg);
+    }
+
+    .logoForUp:hover {
+        background-color: #722f37;
+    }
+}
+
+/* This part for media */
+@media screen and (max-width: 992px) {
+    .endBackStyle {
+        background-color: SlateGray;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top: 3px solid black;
+    }
+
+    .logoStyleEnd {
+        font-size: 70px;
+        text-align: center;
+        color: black;
+        font-family: normal;
+        text-shadow: 2px 2px;
+        transition: 2s;
+        display: inline-block;
+    }
+
+    .f,
+    .i,
+    .t,
+    .y {
+        min-height: 40px;
+        width: 40px;
+        background-image: url(./Image/f.png);
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        margin-left: 25px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    .i {
+        background-image: url(./Image/i.png)
+    }
+
+    .t {
+        background-image: url(./Image/t.png)
+    }
+
+    .y {
+        background-image: url(./Image/y.png)
+    }
+
+    .endText {
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: normal;
+        color: #722f37;
+        padding-left: 39px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    h4 {
+        font-family: normal;
+        font-size: 20px;
+        text-shadow: 0.5px 0.5px;
+        color: black;
+
+    }
+
+    .logoForUp {
+        height: 40px;
+        max-width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-position: -40%;
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        border: 1px solid black;
+        background-color: #641a23;
+        transition: 2s;
+        margin-top: 15px;
+        margin-left: 88%;
+    }
+
+    .logoForUp {
+        background-image: url(./Image/prev.png);
+        transform: rotate(90deg);
+    }
+
+    .logoForUp:hover {
+        background-color: rgb(61, 79, 131);
+    }
+}

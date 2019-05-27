@@ -1,0 +1,164 @@
+.b {
+    background-color: aqua;
+}
+
+.r {
+    background-color: red
+}
+.d{display: inline-block;}
+/* @ndhanur styler@ */
+/* In each part title style */
+.eachPartTitleStyle {
+    font-family: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    transition-duration: 2s;
+    text-shadow: 1px 1px;
+}
+
+.eachPartTitleStyle:hover {
+    cursor: pointer;
+    color: #722f37;
+
+}
+
+
+
+
+/* about */
+.forAboutRow{
+    margin-top: 5px;
+    padding-bottom: 35px;
+}
+.aboutColLeft,
+.aboutColRight {
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: normal;
+}
+
+.imgAboutPart1{
+    height: 450px;
+    /* width: 780px;
+    margin-left: 22px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.imgAboutPart1{
+    background-image: url(./Image/AboutUs/img1.png);
+    animation-name: tertel;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+    animation-delay: 2s;
+}
+@keyframes tertel{
+    50%{
+        background-image: url(./Image/AboutUs/img2.jpg);
+    }
+    100%{
+         background-image: url(./Image/AboutUs/img3.png);
+    }
+}
+.imgAboutPart1:hover {
+    animation-play-state: paused;
+}
+
+.wine1,
+.wine2,
+.wine3{
+    min-height: 340px;
+    background-image: url(../src/Component/AboutPart/Image/rose1.jpg);
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-size: 99% 99%;
+    background-position: center;
+    display: flex;
+    transition: 6s;
+}
+.wine2 {
+    background-image: url(../src/Component/AboutPart/Image/red.jpg);
+}
+.wine3 {
+    background-image: url(../src/Component/AboutPart/Image/wite1.jpg);
+}
+.wine1:hover,
+.wine2:hover,
+.wine3:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+/*  And About part */
+
+
+
+/* Shop part */
+.shopsDivStyle{
+    background-color: rgb(206, 198, 198);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.divShops1,
+.divShops2,
+.divShops3,
+.divShops4,
+.divShops5,
+.divShops6
+{
+    height: 250px;
+    margin-top: 2px;
+    background-image: url(./Image/shops/city4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    transition: 6s;
+    border: 2px solid black;
+}
+.divShops2 { background-image: url(./Image/shops/nt.png);}
+.divShops3 { background-image: url(./Image/shops/nor_zovq.png);}
+.divShops4 { background-image: url(./Image/shops/parma.png);}
+.divShops5 { background-image: url(./Image/shops/carfur.png);}
+.divShops6 { background-image: url(./Image/shops/sas.2png.png);}
+
+.divShops1:hover,
+.divShops2:hover,
+.divShops3:hover,
+.divShops4:hover,
+.divShops5:hover,
+.divShops6:hover {
+    transform: scale(0.97);
+    cursor: pointer;
+}
+/*  And Shop part */
+
+
+
+/* This is for all text */
+.size2Style {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    font-family: normal;
+}
+.size3Style {
+    font-size: 23px;
+    color: #722f37;
+    font-family:normal; 
+    text-align: center;
+
+}
+.size4Style {
+    font-size: 21px;
+    color: black;
+    font-family: normal;
+    font-family: normal;
+}
+
+
+
+
+

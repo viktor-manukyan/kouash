@@ -1,0 +1,185 @@
+@media screen and (min-width: 992px) {
+    .galeryImgAnimation {
+        height: 500px;
+        width: 800px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-image: url(./Image/slider/img1.jpg);
+        margin-left: calc(50% - 400px);
+        animation: changeImg;
+        animation-iteration-count: infinite;
+        animation-duration: 24s;
+        animation-delay: 8s;
+    }
+
+    @keyframes changeImg {
+        50% {
+            background-image: url(./Image/slider/img2.png);
+        }
+
+        100% {
+            background-image:url(./Image/slider/img3.jpg);
+        }
+    }
+    .colStyele {
+        padding-top: 20px;
+        border-bottom: 3px solid rgb(94, 43, 43);
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+    }
+
+    .wineTypeStyle {
+        width: 248px;
+        height: 500px;
+        padding-top: 3px;
+        background-repeat: no-repeat;
+    }
+    .galleryBackStyle{
+        background-color: black;
+    }
+    .galeryStyle {
+        width: 100%;
+        max-height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 84px;
+        padding-bottom: 84px;
+        transform: rotate(36deg);
+        animation-name: re;
+        animation-duration: 36s;
+        animation-delay: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes re {
+        25% {
+            transform: translateX(1800px);
+        }
+
+        50% {
+            transform: rotate(-36deg);
+        }
+
+        100% {
+            transform: translateX(-1800px);
+        }
+    }
+
+    /* wine animation part */
+    h1 {
+        color: white;
+        font-family: normal;
+        word-spacing: 20px;
+        font-size: 60px;
+        position: absolute;
+        margin-left: 28%;
+        margin-top: 185px;
+    }
+
+    .galeryWineImgStyle {
+        width: 80%;
+        height: 500px;
+        transition: 6s;
+        margin-left: 80px;
+    }
+    .galeryWineImgStyle:hover{
+        transform: translate(300px) scale(0.5);
+        /* transform: scale(0.5); */
+        
+    }
+
+    .each-slide>div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 770px;
+    }
+    .backImg1,
+    .backImg2,
+    .backImg3 {
+        background-image: url(./Image/slider/img1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .backImg2 {
+        background-image: url(./Image/slider/img2.png);
+    }
+
+    .backImg3 {
+        background-image: url(./Image/slider/img3.jpg);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .colStyele {
+        padding-top: 20px;
+        border-bottom: 3px solid rgb(94, 43, 43);
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+    }
+
+    .wineTypeStyle {
+        width: 248px;
+        height: 500px;
+        padding-top: 3px;
+        background-repeat: no-repeat;
+    }
+
+    .galleryBackStyle {
+        background-color: rgb(7, 7, 7);
+    }
+
+    .galeryStyle {
+        max-height: 0px;
+        background-repeat: no-repeat;
+        padding-top: 84px;
+    }
+
+    /* wine animation part */
+    h1 {
+        color: white;
+        font-family: normal;
+        word-spacing: 20px;
+        font-size: 60px;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 95px;
+    }
+
+    .galeryWineImgStyle {
+        width: 90%;
+        height: 250px;
+        display: inline-block;
+    }
+
+    .each-slide>div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 770px;
+    }
+
+    .backImg1,
+    .backImg2,
+    .backImg3 {
+        background-image: url(./Image/slider/img1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .backImg2 {
+        background-image: url(./Image/slider/img2.png);
+    }
+
+    .backImg3 {
+        background-image: url(./Image/slider/img3.jpg);
+    }
+}
